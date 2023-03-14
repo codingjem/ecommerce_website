@@ -1,0 +1,70 @@
+/* * {
+    border: 0.2px dashed black;
+} */
+
+.custom-toggler-button {
+    border: none !important;
+}
+/* deleter */
+.hidden {
+    display: none;
+    transition: 0.5s;
+}
+
+/* pop-up */
+.popup {
+    bottom: 0;
+    width: 100vw;
+    padding: 50px 0;
+    background-color: white;
+    z-index: 100;
+    visibility: hidden;
+    z-index: 80;
+}
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.223);
+    z-index: 70;
+}
+/* navbar */
+.custom-navbar {
+    z-index: 60;
+    height: 80px;
+}
+/* main */
+.main {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* home section */
+#home {
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+.img-title {
+    width: 200px;
+}
+.text-title {
+    line-height: 1;
+    font-size: 3.5vw;
+    font-style: italic;
+}
+.arrow-title {
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+@media only screen and (max-width: 767px) {
+    #home {
+        padding-top: 25%;
+    }
+    .text-title {
+        font-size: 7.5vw;
+    }
+    .img-title {
+        width: 300px;
+    }
+}
